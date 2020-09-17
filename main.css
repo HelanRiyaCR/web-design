@@ -1,0 +1,93 @@
+
+.bg-banner
+{
+    background: url('lap.jpg');
+    background-size: 100%;
+    
+}
+.introbtn
+{
+    background-color: #f7631b;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.feature-area
+{
+    margin-top: -90px;
+}
+.container
+{
+    max-width: 1140px;
+}
+.row
+{
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px; 
+}
+.col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.single-feature {
+    text-align: center;
+}
+.single-feature .title {
+    background: rgba(255,255,255,0.15);
+    padding: 20px 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.single-feature .title h4 {
+
+    color: #fff;
+
+}
+.single-feature::before, ::after
+{
+    box-sizing: border-box;
+}
+.single-feature
+{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.title
+{
+    background: white;
+    padding: 20px 0px;
+}
+.section-gap
+{
+    padding: 10px 0;
+}
+section
+{
+    display: block;
+}
+footer
+{
+	background-color: rgba(4,9,30,0.9); 
+	opacity: 1; 
+	padding: 120px;
+}
+.course-search
+{
+    background-image: url('students.jpg');
+    background-size: 100%;
+	opacity :0.5;
+    
+}
+.course-search:after
+{
+	background: rgba(0,0,0,5);
+}
+.overlay-bg
+{
+	background: rgba(4,9,30,0.8);
+	
+}
