@@ -1,7 +1,7 @@
 
 .bg-banner
 {
-    background: url('lap.jpg');
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('lap.jpg');
     background-size: 100%;
     
 }
@@ -75,19 +75,17 @@ footer
 	opacity: 1; 
 	padding: 120px;
 }
-.course-search
+
+.apply.row
 {
-    background-image: url('students.jpg');
-    background-size: 100%;
-	opacity :0.5;
-    
+	background-image: url('study.jpg');
+	height: 100px;
+	width: 100%;
 }
-.course-search:after
+.bgimg
 {
-	background: rgba(0,0,0,5);
-}
-.overlay-bg
-{
-	background: rgba(4,9,30,0.8);
-	
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('study.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+
 }
